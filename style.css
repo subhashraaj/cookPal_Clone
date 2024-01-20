@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Poppins;
+
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav {
+    padding: 50px;
+    padding-right: 100px;
+}
+
+#nav>a {
+    padding-right: 60px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#nav>img {
+    border-radius: 50%;
+
+}
+
+#heroSection {
+    background-image: url("https://s3-alpha-sig.figma.com/img/7d4e/3fa3/3b0de3e0090f8898c24f6e2c892fee6f?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NCsgeJljDyZoxUov-N-VBflGeAb-ExGrsbc278ndnEHjZ81cn-sV2Zny2zrkwTa3LMHmblgQA1qPHJ-kS93EVeMd212gDnki8z-O6jsmEJuRowXYGtjdzfIhAdU4KVuctGC5eWWJSj2aKq7fFlC80YrSsnwR2lvMW020MTIohKR~qYhhOS0WjwKuFd~GYEweN~W8iTDGCPnb1uFdpThGSi8witBKHhZ4RKBkgWRK4UV9Zpayn-gY1n8AhUNJ2Q5z0XzQcoiiDZ3Yc870STfT9BX-HyT6wL6oMQ~PUPNNOq1KU3ofp0E917eqsRUd2kqDlCLz6X802Ez249YvoIK9XQ__");
+    background-size: 50% 50%;
+
+}
+
+
+
+
+#search {
+    margin-left: 100px;
+    padding-top: 50px;
+}
+
+#search>p {
+    color: #252525;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+
+.searchRecipes {
+    margin-top: 20px;
+    border: none;
+    width: 90%;
+    height: 30px;
+    background-color: #F3F3F3;
+    padding: 10px;
+    color: #ADADAD;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.inputSearch {
+    display: flex;
+    align-items: center;
+
+}
+
+.inputSearch>i {
+    background-color: #509e2f;
+    padding: 17px;
+    margin-top: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#categories {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+#allRecipes>button {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    background-color: #EAAA00;
+
+}
+
+#vegRecipes>button {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    background-color: #C4D600;
+
+}
+
+#nonVegRecipes>button {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 33px;
+    padding-right: 33px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    background-color: #DC582A;
+}
+
+.boxText1,
+.boxText2 {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.boxText1>p,
+.boxText2>p {
+    margin-top: 0px;
+    margin-left: 15px;
+    width: 200px;
+}
+
+.box {
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    border: 1px solid #A1A1A1;
+}
+
+.filterText {
+    color: #252525;
+    font-size: 22px;
+    font-weight: 900;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+.RatingText {
+    color: #252525;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.card {
+    width: 305px;
+    height: 315px;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 3px 8px -1px;
+    margin-top: 20px;
+    margin-right: 90px;
+}
+
+#bodySection{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.recipeCards{
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.cardContent>img {
+    margin: 5px;
+    border-radius: 10px;
+    flex-shrink: 90;
+
+}
+
+.cardContent>p {
+    font-family: Inter;
+    color: #A1A1A1;
+    font-size: 13px;
+    font-weight: 500;
+}
+.card{
+    margin-top: 40px;
+    
+}
+.recipeName>h5 {
+    color: #252525;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.recipeName {
+    display: flex;
+    justify-content: space-between;
+}
+
+.time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time>h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #DC582A;
+    margin-left:18px;
+    margin-top: 8px;
+}
+.time>div{
+    margin-right: 15px;
+}
+.time>div>img{
+    padding-left: 8px;
+}
+
+.define>p{
+    width:290px
+}

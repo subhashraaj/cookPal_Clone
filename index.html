@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Cook Pal</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section id="header">
+        <img style="padding-left: 100px;" height="45px" width="95px"
+            src="https://s3-alpha-sig.figma.com/img/e0ef/4f61/967cc7d034dc411ca2013fff2fed228d?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=l2zrKFx-tpPBCJDWUusrkNL9oQ7vM4CfX0SuDEHoYN6Dwdz5ZHiBNFi9Qnpd9O2FMwfRRM~Njkx37dRVGlr8XqrmV8UGL1wR0pJMzHMwd~FXlmu6mYWF-0mO701Z~YhpmagZsm6BgQsDFsW5Gi7CtKkbehunv0q2qAQpZsBaeXvV9xqC~-jnm6Cdx7vdFj6FImfxoZU6UeJUUMeJc~RiIh28X-GBWU2lEuHUE6ELW~nkZxKWgrcj3IxSb1--meeHlzzm2-fK2mM4MKpWv-2Ep16RRlv7PfDYAzZPCUV3ppu7vC1v8l5zZLXrUxIpSJIVjF66hMMDxXE99x4q-e3AFw__">
+        <div id="nav">
+            <a style="color: #509E2F;">Home</a>
+            <a>Explore</a>
+            <a style="padding-right: 130px;">Help</a>
+            <img class="profile" height="40px" width="40px"
+                src="https://s3-alpha-sig.figma.com/img/28c2/2d0a/f96e56b91aae9daed41ea781c3d6dc58?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TQe-zigCGTnUdZ6zgSqQNteukSp2vtBYFRqAE4CMd9A0Jv0X7KJp5CG1LOR6ikZhokMsukY9b7lPCTMek7ngr2oGSBoeZKStEMSLFlX5ja9Ie5kyCmHEUJJCRJcuj9c7Y7ObCMsFdrq5SNuXVLUgECap5hZHvbFvj7NXyoFJXRlMKg5aQI~dxFRq4~Ieeo7WDokPdsbSP7vXPhqbHJWyDg9b8rLuxtw7GRiwtl2E-5Uktum0Hn8HbKVWkYicBW5-YMFxPW5i68pvafc5zxjCWsKXiZ1krfEg-vGBF-Oq2OMF8-gOianOVi3W55Tl8d7GiTv97J7MEDD6ZopUEJLRhw__">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+                integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
+        </div>
+    </section>
+    <section id="heroSection">
+
+
+    </section>
+    <section id="search">
+        <p>Search For Recipes</p>
+        <div class="inputSearch">
+            <svg style="background-color: F3F3F3;padding:16px;margin-top: 20px; border-bottom-left-radius:10px; border-top-left-radius:10px;"
+                xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 17 18" fill="none">
+                <path
+                    d="M7.79167 13.9583C10.9213 13.9583 13.4583 11.4213 13.4583 8.29167C13.4583 5.16205 10.9213 2.625 7.79167 2.625C4.66205 2.625 2.125 5.16205 2.125 8.29167C2.125 11.4213 4.66205 13.9583 7.79167 13.9583Z"
+                    stroke="#ADADAD" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M14.875 15.375L11.7937 12.2938" stroke="#ADADAD" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
+            <input class="searchRecipes" type="text" placeholder="Search for recipes...">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+    </section>
+    <section id="categories">
+        <div id="allRecipes">
+            <button>All Recipes ></button>
+        </div>
+        <div style="margin-left: 10px ;margin-right:10px;" id="vegRecipes">
+            <button>Veg Recipes Only ></button>
+        </div>
+        <div id="nonVegRecipes">
+            <button>Non Veg Recepies ></button>
+        </div>
+
+    </section>
+    <section id="bodySection">
+        <section id="filter">
+            <p class="filterText">Filter</p>
+            <p class="RatingText">Rating</p>
+            <div class="boxText1" style="display: flex;">
+                <div class="box"></div>
+                <p>4 and Above</p>
+            </div>
+            <div class="boxText2" style="display: flex;">
+                <div class="box"></div>
+                <p>Below 4</p>
+            </div>
+        </section>
+        <section class="recipeCards">
+            <div style="margin-left: 100px;" class="card">
+                <div class="cardContent">
+                    <img height="210px" width="295px" src="./rounded.png">
+                    <p style="margin-left: 18px;">Veg</p>
+                    <div class="recipeName">
+                        <h5 style="margin-left: 18px;">Russian Salad</h5>
+                        <div style="margin-right: 15px;">
+                            <img src="./Star.jpg"><span>4.5</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <h3>40 min</h3>
+                        <div>
+                            <img src="./like.png">
+                            <img src="./comments.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardContent">
+                    <img height="210px" width="295px"
+                        src="https://s3-alpha-sig.figma.com/img/9f28/9d81/61610440b51aecbb371abba8e8951ca8?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cmbk3Q7ORhk3MstMKFDzkC9UPhY0BqjRKchSgWthtgEvUHf~DGDxmjUfGABXvTpDYwdiRf-Bk~9KW13au77ktWP9Rb0tCdYxfPhYODEKTP3q6DcdvTUdotGf8R64l0koAfDU25W4uxz2TyCk4UP2tv1IWZp63VEcopJWAJJdRG9kVjcV822V5Cr10qMpwFS~awa9pewCvWUfDJSmlSNaHo0pJcFNPvSPrANb6jYgWDtNoEtkVAZ373lUHBzPA2ZG2E03svuLBfcxiSWvcJfSAJo~B~7uDY2EHev-DLZIXJncNHfcqMrT9pQlVV~BdATOWYyhQQPXwonJpAKF24pi3w__">
+                    <p style="margin-left: 18px;">Veg</p>
+                    <div class="recipeName">
+                        <h5 style="margin-left: 18px;">Russian Salad</h5>
+                        <div style="margin-right: 15px;">
+                            <img src="./Star.jpg"><span>4.5</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <h3>40 min</h3>
+                        <div>
+                            <img src="./like.png">
+                            <img src="./comments.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardContent">
+                    <img height="210px" width="295px" src="./rounded1.png">
+                    <p style="margin-left: 18px;">Veg</p>
+                    <div class="recipeName">
+                        <h5 style="margin-left: 18px;">Russian Salad</h5>
+                        <div style="margin-right: 15px;">
+                            <img src="./Star.jpg"><span>4.5</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <h3>40 min</h3>
+                        <div>
+                            <img src="./like.png">
+                            <img src="./comments.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-left: 100px;" class="card">
+                <div class="cardContent">
+                    <img height="210px" width="295px" src="./rounded.png">
+                    <p style="margin-left: 18px;">Veg</p>
+                    <div class="recipeName">
+                        <h5 style="margin-left: 18px;">Russian Salad</h5>
+                        <div style="margin-right: 15px;">
+                            <img src="./Star.jpg"><span>4.5</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <h3>40 min</h3>
+                        <div>
+                            <img src="./like.png">
+                            <img src="./comments.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardContent">
+                    <img height="210px" width="295px"
+                        src="https://s3-alpha-sig.figma.com/img/9f28/9d81/61610440b51aecbb371abba8e8951ca8?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cmbk3Q7ORhk3MstMKFDzkC9UPhY0BqjRKchSgWthtgEvUHf~DGDxmjUfGABXvTpDYwdiRf-Bk~9KW13au77ktWP9Rb0tCdYxfPhYODEKTP3q6DcdvTUdotGf8R64l0koAfDU25W4uxz2TyCk4UP2tv1IWZp63VEcopJWAJJdRG9kVjcV822V5Cr10qMpwFS~awa9pewCvWUfDJSmlSNaHo0pJcFNPvSPrANb6jYgWDtNoEtkVAZ373lUHBzPA2ZG2E03svuLBfcxiSWvcJfSAJo~B~7uDY2EHev-DLZIXJncNHfcqMrT9pQlVV~BdATOWYyhQQPXwonJpAKF24pi3w__">
+                    <p style="margin-left: 18px;">Veg</p>
+                    <div class="recipeName">
+                        <h5 style="margin-left: 18px;">Russian Salad</h5>
+                        <div style="margin-right: 15px;">
+                            <img src="./Star.jpg"><span>4.5</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <h3>40 min</h3>
+                        <div>
+                            <img src="./like.png">
+                            <img src="./comments.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardContent">
+                    <img height="210px" width="295px" src="./rounded1.png">
+                    <p style="margin-left: 18px;">Veg</p>
+                    <div class="recipeName">
+                        <h5 style="margin-left: 18px;">Russian Salad</h5>
+                        <div style="margin-right: 15px;">
+                            <img src="./Star.jpg"><span>4.5</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <h3>40 min</h3>
+                        <div>
+                            <img src="./like.png">
+                            <img src="./comments.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-left: 100px;" class="card">
+                <div class="cardContent">
+                    <img height="210px" width="295px" src="./rounded.png">
+                    <p style="margin-left: 18px;">Veg</p>
+                    <div class="recipeName">
+                        <h5 style="margin-left: 18px;">Russian Salad</h5>
+                        <div style="margin-right: 15px;">
+                            <img src="./Star.jpg"><span>4.5</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <h3>40 min</h3>
+                        <div>
+                            <img src="./like.png">
+                            <img src="./comments.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardContent">
+                    <img height="210px" width="295px"
+                        src="https://s3-alpha-sig.figma.com/img/9f28/9d81/61610440b51aecbb371abba8e8951ca8?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cmbk3Q7ORhk3MstMKFDzkC9UPhY0BqjRKchSgWthtgEvUHf~DGDxmjUfGABXvTpDYwdiRf-Bk~9KW13au77ktWP9Rb0tCdYxfPhYODEKTP3q6DcdvTUdotGf8R64l0koAfDU25W4uxz2TyCk4UP2tv1IWZp63VEcopJWAJJdRG9kVjcV822V5Cr10qMpwFS~awa9pewCvWUfDJSmlSNaHo0pJcFNPvSPrANb6jYgWDtNoEtkVAZ373lUHBzPA2ZG2E03svuLBfcxiSWvcJfSAJo~B~7uDY2EHev-DLZIXJncNHfcqMrT9pQlVV~BdATOWYyhQQPXwonJpAKF24pi3w__">
+                    <p style="margin-left: 18px;">Veg</p>
+                    <div class="recipeName">
+                        <h5 style="margin-left: 18px;">Russian Salad</h5>
+                        <div style="margin-right: 15px;">
+                            <img src="./Star.jpg"><span>4.5</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <h3>40 min</h3>
+                        <div>
+                            <img src="./like.png">
+                            <img src="./comments.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardContent">
+                    <img height="210px" width="295px" src="./rounded1.png">
+                    <p style="margin-left: 18px;">Veg</p>
+                    <div class="recipeName">
+                        <h5 style="margin-left: 18px;">Russian Salad</h5>
+                        <div style="margin-right: 15px;">
+                            <img src="./Star.jpg"><span>4.5</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <h3>40 min</h3>
+                        <div>
+                            <img src="./like.png">
+                            <img src="./comments.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-left: 100px;" class="card">
+                <div class="cardContent">
+                    <img height="210px" width="295px"
+                        src="https://s3-alpha-sig.figma.com/img/9f28/9d81/61610440b51aecbb371abba8e8951ca8?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cmbk3Q7ORhk3MstMKFDzkC9UPhY0BqjRKchSgWthtgEvUHf~DGDxmjUfGABXvTpDYwdiRf-Bk~9KW13au77ktWP9Rb0tCdYxfPhYODEKTP3q6DcdvTUdotGf8R64l0koAfDU25W4uxz2TyCk4UP2tv1IWZp63VEcopJWAJJdRG9kVjcV822V5Cr10qMpwFS~awa9pewCvWUfDJSmlSNaHo0pJcFNPvSPrANb6jYgWDtNoEtkVAZ373lUHBzPA2ZG2E03svuLBfcxiSWvcJfSAJo~B~7uDY2EHev-DLZIXJncNHfcqMrT9pQlVV~BdATOWYyhQQPXwonJpAKF24pi3w__">
+                    <p style="margin-left: 18px;">Veg</p>
+                    <div class="recipeName">
+                        <h5 style="margin-left: 18px;">Russian Salad</h5>
+                        <div style="margin-right: 15px;">
+                            <img src="./Star.jpg"><span>4.5</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <h3>40 min</h3>
+                        <div>
+                            <img src="./like.png">
+                            <img src="./comments.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardContent">
+                    <img height="210px" width="295px"
+                        src="https://s3-alpha-sig.figma.com/img/9f28/9d81/61610440b51aecbb371abba8e8951ca8?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cmbk3Q7ORhk3MstMKFDzkC9UPhY0BqjRKchSgWthtgEvUHf~DGDxmjUfGABXvTpDYwdiRf-Bk~9KW13au77ktWP9Rb0tCdYxfPhYODEKTP3q6DcdvTUdotGf8R64l0koAfDU25W4uxz2TyCk4UP2tv1IWZp63VEcopJWAJJdRG9kVjcV822V5Cr10qMpwFS~awa9pewCvWUfDJSmlSNaHo0pJcFNPvSPrANb6jYgWDtNoEtkVAZ373lUHBzPA2ZG2E03svuLBfcxiSWvcJfSAJo~B~7uDY2EHev-DLZIXJncNHfcqMrT9pQlVV~BdATOWYyhQQPXwonJpAKF24pi3w__">
+                    <p style="margin-left: 18px;">Veg</p>
+                    <div class="recipeName">
+                        <h5 style="margin-left: 18px;">Russian Salad</h5>
+                        <div style="margin-right: 15px;">
+                            <img src="./Star.jpg"><span>4.5</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <h3>40 min</h3>
+                        <div>
+                            <img src="./like.png">
+                            <img src="./comments.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardContent">
+                    <img height="210px" width="295px"
+                        src="https://s3-alpha-sig.figma.com/img/9f28/9d81/61610440b51aecbb371abba8e8951ca8?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cmbk3Q7ORhk3MstMKFDzkC9UPhY0BqjRKchSgWthtgEvUHf~DGDxmjUfGABXvTpDYwdiRf-Bk~9KW13au77ktWP9Rb0tCdYxfPhYODEKTP3q6DcdvTUdotGf8R64l0koAfDU25W4uxz2TyCk4UP2tv1IWZp63VEcopJWAJJdRG9kVjcV822V5Cr10qMpwFS~awa9pewCvWUfDJSmlSNaHo0pJcFNPvSPrANb6jYgWDtNoEtkVAZ373lUHBzPA2ZG2E03svuLBfcxiSWvcJfSAJo~B~7uDY2EHev-DLZIXJncNHfcqMrT9pQlVV~BdATOWYyhQQPXwonJpAKF24pi3w__">
+                    <p style="margin-left: 18px;">Veg</p>
+                    <div class="recipeName">
+                        <h5 style="margin-left: 18px;">Russian Salad</h5>
+                        <div style="margin-right: 15px;">
+                            <img src="./Star.jpg"><span>4.5</span>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <h3>40 min</h3>
+                        <div>
+                            <img src="./like.png">
+                            <img src="./comments.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </section>
+    <footer id="footer">
+        <div class="define">
+            <img src="./Cookpal 1.png">
+            <p>Cookpal is a recipe website with a wide variety of delicious recipes, easy-to-use search function. Join
+                our community and let's cook together!</p>
+        </div>
+        <div class="company">
+            <h5>Company</h5>
+            <p>Home</p>
+            <p>Explore</p>
+            <p>Team</p>
+            <p>About us</p>
+            <p>Activity</p>
+        </div>
+        <div class="resources">
+            <h5>Resources</h5>
+            <p>Blog</p>
+            <p>Use Cases</p>
+            <p>Testimonials</p>
+            <p>Insights</p>
+
+        </div>
+        <div class="end">
+            <img src="./Cookpal 1.png">
+            <p>Ut risus mattis interdum faucibus facilisi. Facilisi purus accumsan aliquam.</p>
+            <input type="email" placeholder="Your Email"><img src="./at.jpg">
+
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
